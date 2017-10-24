@@ -1,0 +1,6 @@
+version: '2.2'
+services:
+  postgres:
+    image: postgres:9.4
+    ports:
+      - "2345:5432"
