@@ -1,0 +1,19 @@
+### Java ###
+*.class
+
+### Intellij ###
+demo-dropwizard/.gradle
+demo-dropwizard/.idea
+*.iml
+*.ipr
+*.iws
+.settings
+.classpath
+.project
+*.swp
+
+
+.DS_Store
+*.rdb
+*.log
+
