@@ -1,1 +1,6 @@
-dbName: french
+postgresConnectionDetails:
+  host: localhost
+  port: 2345
+  dbName: vocabulary
+  user: postgres
+  password: <password>

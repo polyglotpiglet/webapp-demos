@@ -4,3 +4,5 @@ services:
     image: postgres:9.4
     ports:
       - "2345:5432"
+    environment:
+      POSTGRES_DB: vocabulary

@@ -15,4 +15,11 @@ public class Verb {
     public String getInfinitive() {
         return infinitive;
     }
+
+    @Override
+    public String toString() {
+        return "Verb{" +
+                "infinitive='" + infinitive + '\'' +
+                '}';
+    }
 }

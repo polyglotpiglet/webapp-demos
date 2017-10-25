@@ -5,15 +5,15 @@ import io.dropwizard.Configuration;
 
 public class AppConfiguration extends Configuration {
 
-    private DataSourceFactory dataSource;
+    private PostgresConnectionDetails postgresConnectionDetails;
 
     @JsonProperty
-    public void setDataSource(DataSourceFactory dataSource) {
-        this.dataSource = dataSource;
+    public void setPostgresConnectionDetails(PostgresConnectionDetails postgresConnectionDetails) {
+        this.postgresConnectionDetails = postgresConnectionDetails;
     }
 
     @JsonProperty
-    public DataSourceFactory getDataSource() {
-        return dataSource;
+    public PostgresConnectionDetails getPostgresConnectionDetails() {
+        return postgresConnectionDetails;
     }
 }
